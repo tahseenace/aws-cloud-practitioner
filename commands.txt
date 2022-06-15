@@ -3,4 +3,7 @@ aws --version
 aws configure
 aws iam list-users
 
+ssh -i <pem file> ec2-user@<public ip>
+ssh -i learnec2.pem ec2-user@44.204.151.13
+
 ==========================================================================================
